@@ -18,5 +18,19 @@ https://github.com/lita-xyz/llvm-valida/issues/19
 
 https://github.com/lita-xyz/llvm-valida/issues/24
 
+- [11182023]
 
+01
 
+**Processor-Memory Bottleneck: Early Solutions**
+
+1. Fast local storage in the processor: 8-16 registers as opposed to one accumulator
+2. Indexing capability: to reduce book keeping instructions
+3. Complex instructions: to reduce instruction fetches
+4. Compact instructions: implicit address bits for operands, to reduce instruction fetches
+
+02
+
+https://github.com/logisim-evolution/logisim-evolution
+
+Build a 16 Bit CPU on LogiSim
